@@ -34,5 +34,5 @@ int main() //fungsi utama c
     printf("IP      : %f\n", &ip);
 
     printf("press any button to continue...");
-    getch(); //nunggu satu tombol ditekan sebelum program keluar
+    getch(); //nunggu satu tombol ditekan sebelum program keluar, tapi yg diketik tidak tampil di layar
 }
