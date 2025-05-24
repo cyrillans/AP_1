@@ -24,6 +24,49 @@ int main()
     cout << "Hasil pembagian : " << bagi << endl;
     cout << "Hasil sisa bagi : " << modulo << endl;
 
+    // Relational Operator
+    cout << (a==b) << endl;
+    cout << (a>b) << endl;
+    cout << (a>=b) << endl;
+    cout << (a<b) << endl;
+    cout << (a<=b) << endl;
+    cout << (a!=b) << endl;
+
+    // Logical Operator (&&, ||, !)
+    cout << (true && true) << endl;
+    cout << (true && false) << endl;
+    cout << (false && true) << endl;
+    cout << (false && false) << endl;
+
+    cout << (true || true) << endl;
+    cout << (true || false) << endl;
+    cout << (false || true) << endl;
+    cout << (false || false) << endl;
+
+    cout << !true << endl;
+    cout << !false << endl;
+
+    // Bitwise Operator (&, |, ~, ^, <<, >>) --> operasi biner
+    cout << (5 & 7) << endl;
+    cout << (5 | 7) << endl;
+    cout << (5 ^ 7) << endl;
+    cout << (~7) << endl;
+    cout << (7 << 2) << endl;
+    cout << (7 >> 2) << endl;
+
+    // Shorthand
+    a += 7; // a = a + 7
+    cout << a << endl;
+
+    a -= 7; // a = a - 7
+    cout << a << endl;
+
+    a *= 7; // a = a * 7
+    cout << a << endl;
+
+    a /= 7; // a = a / 7;
+    cout << a << endl;
+
     //Increment & Dicrement = penambahan dan pengurangan 1
     //Pre Increment = Penambahan secara langsung
     cout << a << endl;
@@ -61,5 +104,4 @@ int main()
     cout << b-- << endl;
     cout << b << endl;
     cout << "---" << endl;
-
 }
